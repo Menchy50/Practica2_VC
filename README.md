@@ -28,7 +28,7 @@ Este repositorio contiene el desarrollo de la segunda práctica de Visión por C
   <!-- Añade una imagen comparativa lado a lado -->
   | Imagen Original | Sobel | Canny |
   | :---: | :---: | :---: |
-  | ![Original](imagen lineas.png) | ![Sobel](sobel.png) | ![Canny](canny.png) |
+  | ![Original](imagenLineas.png) | ![Sobel](sobel.png) | ![Canny](canny.png) |
 
 ---
 
