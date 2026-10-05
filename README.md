@@ -16,7 +16,6 @@ Este repositorio contiene el desarrollo de la segunda práctica de Visión por C
 * **Descripción:** Procesamiento de figuras geométricas sobre las imágenes proporcionadas.
 * **Aportación:** Se implementó un filtro para representar únicamente aquellos elementos que superan un umbral de intensidad mínimo predefinido.
 * **Resultado:**
-  <!-- Sustituye la ruta por tu captura real -->
   ![Resultado Tarea 1](umbral.png)
 
 ---
@@ -25,7 +24,6 @@ Este repositorio contiene el desarrollo de la segunda práctica de Visión por C
 * **Descripción:** Evaluaciónde dos operadores clásicos de detección de bordes: el filtro de Sobel y el detector de Canny.
 * **Metodología y Análisis:** Comparación visual de las densidades de píxeles de borde detectadas bajo distintas condiciones de iluminación y textura.
 * **Resultados:**
-  <!-- Añade una imagen comparativa lado a lado -->
   | Imagen Original | Sobel | Canny |
   | :---: | :---: | :---: |
   | ![Original](imagenLineas.png) | ![Sobel](sobel.png) | ![Canny](canny.png) |
@@ -37,9 +35,6 @@ Este repositorio contiene el desarrollo de la segunda práctica de Visión por C
   * **Zona izquierda:** Rango de frecuencias graves.
   * **Zona derecha:** Rango de frecuencias agudas.
 * **Funcionamiento:** Se calcula la diferencia entre fotogramas consecutivos (o mapa de movimiento). La posición donde haya movimiento determina la frecuencia generada, mostrando en pantalla un aviso visual con la frecuencia exacta emitida.
-* **Demostración:**
-  <!-- Puedes grabar un clip corto y convertirlo a .gif -->
-  ![Demostración Air Guitar](assets/demo_air_guitar.gif)
 
 ---
 
@@ -47,6 +42,3 @@ Este repositorio contiene el desarrollo de la segunda práctica de Visión por C
 
 ### Dependencias
 Para ejecutar este cuaderno se requieren las siguientes librerías: pillow
-```bash
-pip install opencv-python numpy matplotlib
-# (Añade aquí librerías de sonido si usaste alguna, ej. pygame, simple
