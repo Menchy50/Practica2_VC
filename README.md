@@ -1,7 +1,52 @@
-## Descripción segunda práctica de VC
+# Práctica 2: Modificación de Imágenes, Detección de Bordes e Interacción por Movimiento
 
-Autor: Mencey Montesdeoca Álamo
+**Autor:** Mencey Montesdeoca Álamo  
+**Asignatura:** Visión por Computador  
 
-Resumen proyecto:
+---
 
-En esta práctica hemos trabajado con modificación de imágenes así como poder añadir líneas o figuras en la propia imagen, en la primera tarea he añadido además de lo pedido que las líneas con un umbral mínimo también se pintasen. Por otro lado en la segunda tarea he comparado los resultados con las densidades entre Sobel y Canny. Por último en la tarea final he hecho una inspiración del Air Guitar en donde la mitad de la pantalla izquierda he hecho graves y la mitad derecha agudos, y donde haya movimiento pues será la frecuencia. También te notifica de la frecuencia que está sonando en ese momento.
+##  Descripción
+Este repositorio contiene el desarrollo de la segunda práctica de Visión por Computador, centrada en el procesamiento básico de imágenes, detección de bordes y el desarrollo de un prototipo interactivo en tiempo real basado en detección de movimiento.
+
+---
+
+## Tareas Desarrolladas
+
+### Tarea 1: Superposición de Formas y Filtrado por Umbral
+* **Descripción:** Procesamiento de figuras geométricas sobre las imágenes proporcionadas.
+* **Aportación:** Se implementó un filtro para representar únicamente aquellos elementos que superan un umbral de intensidad mínimo predefinido.
+* **Resultado:**
+  <!-- Sustituye la ruta por tu captura real -->
+  ![Resultado Tarea 1](assets/tarea1_resultado.png)
+
+---
+
+### Tarea 2: Análisis Comparativo de Bordes (Sobel vs Canny)
+* **Descripción:** Evaluaciónde dos operadores clásicos de detección de bordes: el filtro de Sobel y el detector de Canny.
+* **Metodología y Análisis:** Comparación visual de las densidades de píxeles de borde detectadas bajo distintas condiciones de iluminación y textura.
+* **Resultados:**
+  <!-- Añade una imagen comparativa lado a lado -->
+  | Imagen Original | Sobel | Canny |
+  | :---: | :---: | :---: |
+  | ![Original](assets/original.png) | ![Sobel](assets/sobel.png) | ![Canny](assets/canny.png) |
+
+---
+
+### Tarea 3: Air Guitar por Visión Artificial (Prototipo Interactivo)
+* **Descripción:** Aplicación interactiva en tiempo real inspirada en el concepto de *Air Guitar*. La imagen de la cámara se divide en dos regiones activas:
+  * **Zona izquierda:** Rango de frecuencias graves.
+  * **Zona derecha:** Rango de frecuencias agudas.
+* **Funcionamiento:** Se calcula la diferencia entre fotogramas consecutivos (o mapa de movimiento). La posición donde haya movimiento determina la frecuencia generada, mostrando en pantalla un aviso visual con la frecuencia exacta emitida.
+* **Demostración:**
+  <!-- Puedes grabar un clip corto y convertirlo a .gif -->
+  ![Demostración Air Guitar](assets/demo_air_guitar.gif)
+
+---
+
+## Requisitos y Ejecución
+
+### Dependencias
+Para ejecutar este cuaderno se requieren las siguientes librerías: pillow
+```bash
+pip install opencv-python numpy matplotlib
+# (Añade aquí librerías de sonido si usaste alguna, ej. pygame, simple
