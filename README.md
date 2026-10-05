@@ -17,7 +17,7 @@ Este repositorio contiene el desarrollo de la segunda práctica de Visión por C
 * **Aportación:** Se implementó un filtro para representar únicamente aquellos elementos que superan un umbral de intensidad mínimo predefinido.
 * **Resultado:**
   <!-- Sustituye la ruta por tu captura real -->
-  ![Resultado Tarea 1](assets/tarea1_resultado.png)
+  ![Resultado Tarea 1](umbral.png)
 
 ---
 
@@ -28,7 +28,7 @@ Este repositorio contiene el desarrollo de la segunda práctica de Visión por C
   <!-- Añade una imagen comparativa lado a lado -->
   | Imagen Original | Sobel | Canny |
   | :---: | :---: | :---: |
-  | ![Original](assets/original.png) | ![Sobel](assets/sobel.png) | ![Canny](assets/canny.png) |
+  | ![Original](imagen lineas.png) | ![Sobel](sobel.png) | ![Canny](canny.png) |
 
 ---
 
