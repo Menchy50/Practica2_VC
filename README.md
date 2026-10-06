@@ -24,7 +24,7 @@ Este repositorio contiene el desarrollo de la segunda práctica de Visión por C
 * **Descripción:** Evaluación de dos operadores clásicos de detección de bordes: el filtro de Sobel y el detector de Canny.
 * **Metodología y Análisis:** Comparación visual de las densidades de píxeles de borde detectadas bajo distintas condiciones de iluminación y textura.
 * **Resultados:**
-  | Imagen Original | Sobel | Canny |
+  | Imagen Original(Sobel) | Sobel | Canny |
   | :---: | :---: | :---: |
   | ![Original](imagenLineas.png) | ![Sobel](sobel.png) | ![Canny](canny.png) |
 
