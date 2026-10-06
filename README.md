@@ -35,6 +35,8 @@ Este repositorio contiene el desarrollo de la segunda práctica de Visión por C
   * **Zona izquierda:** Rango de frecuencias graves.
   * **Zona derecha:** Rango de frecuencias agudas.
 * **Funcionamiento:** Se calcula la diferencia entre fotogramas consecutivos (o mapa de movimiento). La posición donde haya movimiento determina la frecuencia generada, mostrando en pantalla un aviso visual con la frecuencia exacta emitida.
+* **Resultado:**
+  ![Resultado Tarea 3](Sintetizador.png)
 
 ---
 
