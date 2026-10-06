@@ -41,4 +41,4 @@ Este repositorio contiene el desarrollo de la segunda práctica de Visión por C
 ## Requisitos y Ejecución
 
 ### Dependencias
-Para ejecutar este cuaderno se requieren las siguientes librerías: pillow
+Para ejecutar este cuaderno se requieren las siguientes librerías: pillow, winsound, threading
