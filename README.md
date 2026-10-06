@@ -14,14 +14,14 @@ Este repositorio contiene el desarrollo de la segunda práctica de Visión por C
 
 ### Tarea 1: Superposición de Formas y Filtrado por Umbral
 * **Descripción:** Procesamiento de figuras geométricas sobre las imágenes proporcionadas.
-* **Aportación:** Se implementó un filtro para representar únicamente aquellos elementos que superan un umbral de intensidad mínimo predefinido.
+* **Aportación:** Se implementó un filtro para representar únicamente aquellas filas que superan un umbral de intensidad mínimo predefinido.
 * **Resultado:**
   ![Resultado Tarea 1](umbral.png)
 
 ---
 
 ### Tarea 2: Análisis Comparativo de Bordes (Sobel vs Canny)
-* **Descripción:** Evaluaciónde dos operadores clásicos de detección de bordes: el filtro de Sobel y el detector de Canny.
+* **Descripción:** Evaluación de dos operadores clásicos de detección de bordes: el filtro de Sobel y el detector de Canny.
 * **Metodología y Análisis:** Comparación visual de las densidades de píxeles de borde detectadas bajo distintas condiciones de iluminación y textura.
 * **Resultados:**
   | Imagen Original | Sobel | Canny |
